@@ -1,6 +1,6 @@
 service = <<EOF
 [Unit]
-Description=Curtin FRC Vision Service
+Description=Dell IPMI Profile Fan Controller
 
 [Service]
 Type=simple
