@@ -5,7 +5,7 @@ Description=Dell IPMI Profile Fan Controller
 [Service]
 Type=simple
 Restart=always
-ExecStart=#{`which ruby`} fanctrl.rb
+ExecStart=#{`which ruby`.strip} fanctrl.rb
 WorkingDirectory=#{File.absolute_path File.dirname(__FILE__)}
 
 [Install]
