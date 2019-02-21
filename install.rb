@@ -13,7 +13,7 @@ WantedBy=multi-user.target
 
 EOF
 
-File.write("/etc/systemd/system/fanctrl.vision", service)
+File.write("/etc/systemd/system/fanctrl.service", service)
 `systemctl daemon-reload`
 `service fanctrl restart`
 sleep 2
