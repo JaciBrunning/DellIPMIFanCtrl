@@ -15,6 +15,7 @@ EOF
 
 File.write("/etc/systemd/system/fanctrl.service", service)
 `systemctl daemon-reload`
+`systemctl enable fanctrl`
 `service fanctrl restart`
 sleep 2
 `service fanctrl status`
