@@ -16,5 +16,7 @@ Clone the repository, and run `ruby install.rb`
 
 The service name is `fanctrl`, and can be managed through the usual suspects of systemctl, journalctl and the like.
 
+You can change the fan profile by editing `fanctrl.rb`
+
 ## Run (without systemd)
 You will have to run the script manually. You can run `ruby fanctrl.rb` in a cron-job or something similar.
