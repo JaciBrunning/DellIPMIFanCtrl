@@ -20,7 +20,7 @@ end
 def get_fan_speed temp
   i = 0
   power = 100
-  while i < CURVE.size do
+  while i < (CURVE.size - 1) do
     a = CURVE[i]
     b = CURVE[i + 1]
 
